@@ -1,0 +1,93 @@
+.se-connecter-container {
+  width: auto;
+  margin: 50px 50px;
+  padding: 0px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.se-connecter-container p {
+  font-size: 3vw;
+}
+
+.se-connecter-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 2vw;
+}
+
+.se-connecter-container input[type="email"] {
+  width: auto;
+  border-radius: 8px;
+  padding: 15px;
+  border: 2px solid #cccbcb;
+  margin: 5;
+}
+
+.se-connecter-container input[type="password"] {
+  width: auto;
+  border-radius: 8px;
+  padding: 15px;
+  border: 2px solid #cccbcb;
+}
+
+.se-connecter-container button {
+  padding: 10px 20px;
+  font-size: 1vw;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2vw;
+}
+
+.se-connecter-container .btn-connexion {
+  background-color: #ffae00;
+  color: #000000;
+  padding: 15px;
+  border-radius: 15vh;
+}
+
+.se-connecter-container .btn-connexion:hover {
+  background-color: #00ff15;
+}
+
+.se-connecter-container .btn-creer {
+  background-color: #ffae00;
+  color: #000000;
+  margin: 0vw;
+  border-radius: 15vh;
+  margin-right: 4vw;
+}
+
+.se-connecter-container .btn-creer:hover {
+  background-color: #00ff15;
+  color: #000000;
+  border-radius: 15vh;
+}
+
+.se-connecter-container .btn-annuler {
+  background-color: #be1616;
+  color: #000000;
+  border-radius: 15vh;
+}
+
+.se-connecter-container .btn-annuler:hover {
+  background-color: #ff0000;
+}
+
+@media (max-width: 768px) {
+  .se-connecter-container {
+    padding: 5px;
+    margin: 40px 5px;
+  }
+
+  .se-connecter-container p {
+    font-size: 6vw;
+  }
+
+  .se-connecter-container button {
+    font-size: 5vw;
+    padding: 8px 15px;
+    margin: 5vw;
+  }
+}

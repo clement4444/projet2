@@ -1,0 +1,69 @@
+.inscription-container {
+  width: autoh;
+  margin: 50px 50px;
+  text-align: center;
+}
+
+.inscription-container p {
+  font-size: 3vw;
+}
+
+.inscription-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 2vw;
+}
+
+.inscription-container input[type="text"] {
+  width: auto;
+  border-radius: 8px;
+  padding: 15px;
+  border: 1px solid #292929;
+}
+
+.inscription-container button {
+  padding: 10px 20px;
+  font-size: 1.25vw;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 2vw;
+}
+
+.inscription-container .btn-suivant {
+  background-color: #ffbb00;
+  padding: 15px;
+  border-radius: 15vh;
+  color: black;
+}
+
+.inscription-container .btn-suivant:hover {
+  background-color: #45a049;
+}
+
+.inscription-container .btn-annuler {
+  background-color: #be1616;
+  color: #000000;
+  border-radius: 15vh;
+}
+
+.inscription-container .btn-annuler:hover {
+  background-color: #ff0000;
+}
+
+@media (max-width: 768px) {
+  .inscription-container {
+    padding: 5px;
+    margin: 40px 5px;
+  }
+
+  .inscription-container p {
+    font-size: 6vw;
+  }
+
+  .inscription-container button {
+    font-size: 5vw;
+    padding: 8px 15px;
+    margin: 5vw;
+  }
+}
