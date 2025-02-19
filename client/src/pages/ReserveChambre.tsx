@@ -1,4 +1,4 @@
-import "./ReserveChambre.css";
+import "./reserveChambre.css";
 import { useState } from "react";
 import Card from "../components/BakOffice/Card/Card";
 import CalendrierArriver from "../components/BakOffice/ReserverChambre/CalendrierArrival/CalendrierArriver";

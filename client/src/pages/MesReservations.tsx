@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import Card from "../components/BakOffice/Card/Card";
 import { UseApiContext } from "../hooks/UseApi";
 import { UseBakOfficeContext } from "../hooks/UseBakOffice";
-import "./MesReservations.css";
+import "./mesReservations.css";
 import calculerJoursEcarts from "../hooks/calculerJoursEcarts";
 
 const MesReservations = () => {
