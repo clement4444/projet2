@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { UseApiContext } from "../../../../hooks/UseApi";
 import { UseBakOfficeContext } from "../../../../hooks/UseBakOffice";
-import "./BtnValider.css";
+import "./btnValider.css";
 
 const BtnValider = ({
   index,
