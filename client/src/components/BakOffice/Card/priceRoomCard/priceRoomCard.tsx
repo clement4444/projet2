@@ -1,5 +1,5 @@
 import { UseApiContext } from "../../../../hooks/UseApi";
-import "./PriceRoomCard.css";
+import "./priceRoomCard.css";
 
 const PriceRoomCard = ({ index, nuit }: { index: number; nuit: number }) => {
   const { api } = UseApiContext();
