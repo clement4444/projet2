@@ -1,4 +1,4 @@
-import "./BtnNbnuit.css";
+import "./btnNbnuit.css";
 import calculerJoursEcarts from "../../../../hooks/calculerJoursEcarts";
 
 const BtnNbnuit = ({
