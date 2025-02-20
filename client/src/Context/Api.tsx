@@ -72,7 +72,7 @@ export const ApiProvider: React.FC<IndexRoomProviderProps> = ({ children }) => {
 
   // Récupération des données depuis l'API
   useEffect(() => {
-    fetch("https://api-strasgite.vercel.app/items", {
+    fetch("https://univers-api.clement-fiquet.fr/projet2/data", {
       method: "GET",
     })
       .then((response) => response.json())
